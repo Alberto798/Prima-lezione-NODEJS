@@ -18,7 +18,14 @@ let frutta = [
     "pera"
 ]
 
+//iterazione usando il ciclo for
 for (let i = 0; i < frutta.length; i++) {
     const fruttaCorrente = frutta[i]
+    console.log(fruttaCorrente)
+
+}
+
+//iterazione usando il ciclo for...of
+for (const fruttaCorrente of frutta) {
     console.log(fruttaCorrente)
 }
